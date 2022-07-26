@@ -1,10 +1,13 @@
-package com.tareas;
+package com.tareas.services;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.tareas.dao.TareaDao;
+import com.tareas.model.Tarea;
  
 // Vamos a implementar el servicio, el la interfaz anterior simplemente lo declaramos
 @Service

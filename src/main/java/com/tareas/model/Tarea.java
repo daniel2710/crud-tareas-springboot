@@ -1,4 +1,4 @@
-package com.tareas;
+package com.tareas.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

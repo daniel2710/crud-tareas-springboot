@@ -1,260 +1,28 @@
-2022-07-24 02:24:38.355  INFO 7844 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 7844 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 02:24:38.359  INFO 7844 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 02:24:38.741  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 02:24:38.769  INFO 7844 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
-2022-07-24 02:24:39.082  INFO 7844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 02:24:39.089  INFO 7844 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 02:24:39.089  INFO 7844 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 02:24:39.159  INFO 7844 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/crud]   : Initializing Spring embedded WebApplicationContext
-2022-07-24 02:24:39.160  INFO 7844 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 771 ms
-2022-07-24 02:24:39.260  INFO 7844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 02:24:39.469  INFO 7844 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 02:24:39.500  INFO 7844 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 02:24:39.532  INFO 7844 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 02:24:39.647  INFO 7844 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 02:24:39.735  INFO 7844 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 02:24:40.043  INFO 7844 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 02:24:40.050  INFO 7844 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 02:24:40.216  WARN 7844 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 02:24:40.429  INFO 7844 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crud'
-2022-07-24 02:24:40.435  INFO 7844 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.333 seconds (JVM running for 2.788)
-2022-07-24 02:25:09.367  INFO 7844 --- [RMI TCP Connection(9)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 02:25:09.381  INFO 7844 --- [RMI TCP Connection(9)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 02:25:09.382  INFO 7844 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 02:25:09.389  INFO 7844 --- [RMI TCP Connection(9)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 02:25:13.653  INFO 8220 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 8220 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 02:25:13.655  INFO 8220 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 02:25:13.999  INFO 8220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 02:25:14.030  INFO 8220 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
-2022-07-24 02:25:14.339  INFO 8220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 02:25:14.346  INFO 8220 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 02:25:14.346  INFO 8220 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 02:25:14.416  INFO 8220 --- [main] o.a.c.c.C.[.[localhost].[/crud-tareas]   : Initializing Spring embedded WebApplicationContext
-2022-07-24 02:25:14.417  INFO 8220 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 735 ms
-2022-07-24 02:25:14.516  INFO 8220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 02:25:14.727  INFO 8220 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 02:25:14.758  INFO 8220 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 02:25:14.790  INFO 8220 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 02:25:14.907  INFO 8220 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 02:25:14.991  INFO 8220 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 02:25:15.307  INFO 8220 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 02:25:15.314  INFO 8220 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 02:25:15.484  WARN 8220 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 02:25:15.688  INFO 8220 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crud-tareas'
-2022-07-24 02:25:15.694  INFO 8220 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.293 seconds (JVM running for 2.752)
-2022-07-24 02:25:19.287  INFO 8220 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crud-tareas]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 02:25:19.287  INFO 8220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 02:25:19.288  INFO 8220 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-07-24 02:26:46.414  INFO 8220 --- [RMI TCP Connection(11)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 02:26:46.428  INFO 8220 --- [RMI TCP Connection(11)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 02:26:46.429  INFO 8220 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 02:26:46.433  INFO 8220 --- [RMI TCP Connection(11)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 14:46:31.038  INFO 14204 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 14204 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 14:46:31.040  INFO 14204 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 14:46:31.565  INFO 14204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 14:46:31.605  INFO 14204 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interfaces.
-2022-07-24 14:46:32.050  INFO 14204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 14:46:32.059  INFO 14204 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 14:46:32.060  INFO 14204 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 14:46:32.150  INFO 14204 --- [main] o.a.c.c.C.[.[localhost].[/crud-tareas]   : Initializing Spring embedded WebApplicationContext
-2022-07-24 14:46:32.150  INFO 14204 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1078 ms
-2022-07-24 14:46:32.270  INFO 14204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 14:46:32.561  INFO 14204 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 14:46:32.604  INFO 14204 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 14:46:32.656  INFO 14204 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 14:46:32.852  INFO 14204 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 14:46:32.962  INFO 14204 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 14:46:33.373  INFO 14204 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 14:46:33.380  INFO 14204 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 14:46:33.571  WARN 14204 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 14:46:33.807  INFO 14204 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crud-tareas'
-2022-07-24 14:46:33.813  INFO 14204 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 3.082 seconds (JVM running for 3.586)
-2022-07-24 14:46:39.886  INFO 14204 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crud-tareas]   : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 14:46:39.887  INFO 14204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 14:46:39.887  INFO 14204 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-07-24 14:46:51.813  INFO 14204 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 14:46:51.829  INFO 14204 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 14:46:51.831  INFO 14204 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 14:46:51.836  INFO 14204 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 14:51:01.503  INFO 9068 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 9068 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 14:51:01.505  INFO 9068 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 14:51:01.883  INFO 9068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 14:51:01.912  INFO 9068 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
-2022-07-24 14:51:02.224  INFO 9068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 14:51:02.231  INFO 9068 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 14:51:02.231  INFO 9068 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 14:51:02.304  INFO 9068 --- [main] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring embedded WebApplicationContext
-2022-07-24 14:51:02.304  INFO 9068 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 771 ms
-2022-07-24 14:51:02.400  INFO 9068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 14:51:02.621  INFO 9068 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 14:51:02.651  INFO 9068 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 14:51:02.683  INFO 9068 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 14:51:02.800  INFO 9068 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 14:51:02.887  INFO 9068 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 14:51:03.203  INFO 9068 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 14:51:03.209  INFO 9068 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 14:51:03.373  WARN 9068 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 14:51:03.577  INFO 9068 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crudtareas'
-2022-07-24 14:51:03.583  INFO 9068 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.336 seconds (JVM running for 2.79)
-2022-07-24 14:51:10.016  INFO 9068 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 14:51:10.016  INFO 9068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 14:51:10.017  INFO 9068 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-07-24 15:09:01.136  INFO 9068 --- [RMI TCP Connection(21)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 15:09:01.151  INFO 9068 --- [RMI TCP Connection(21)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:09:01.153  INFO 9068 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:09:01.158  INFO 9068 --- [RMI TCP Connection(21)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 15:09:46.876  INFO 13248 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 13248 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:09:46.882  INFO 13248 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:09:47.274  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 15:09:47.328  INFO 13248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 48 ms. Found 1 JPA repository interfaces.
-2022-07-24 15:09:47.663  INFO 13248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 15:09:47.671  INFO 13248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 15:09:47.671  INFO 13248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 15:09:47.764  INFO 13248 --- [main] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring embedded WebApplicationContext
-2022-07-24 15:09:47.764  INFO 13248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 851 ms
-2022-07-24 15:09:47.866  INFO 13248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 15:09:48.088  INFO 13248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 15:09:48.125  INFO 13248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 15:09:48.174  INFO 13248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 15:09:48.328  INFO 13248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 15:09:48.423  INFO 13248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 15:09:48.789  INFO 13248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 15:09:48.795  INFO 13248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:09:48.816  WARN 13248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 15:09:49.144  INFO 13248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crudtareas'
-2022-07-24 15:09:49.150  INFO 13248 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.517 seconds (JVM running for 3.128)
-2022-07-24 15:09:53.261  INFO 13248 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 15:09:53.262  INFO 13248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 15:09:53.262  INFO 13248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-07-24 15:09:56.236  INFO 13248 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 15:09:56.251  INFO 13248 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:09:56.252  INFO 13248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:09:56.257  INFO 13248 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 15:13:15.310  INFO 11716 --- [main] com.tareas.CrudTareasApplicationTests    : Starting CrudTareasApplicationTests using Java 1.8.0_291 on DESKTOP-G84UJFD with PID 11716 (started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:13:15.311  INFO 11716 --- [main] com.tareas.CrudTareasApplicationTests    : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:13:15.774  INFO 11716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 15:13:15.813  INFO 11716 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32 ms. Found 1 JPA repository interfaces.
-2022-07-24 15:13:16.185  INFO 11716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 15:13:16.849  INFO 11716 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 15:13:16.898  INFO 11716 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 15:13:16.940  INFO 11716 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 15:13:17.088  INFO 11716 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 15:13:17.204  INFO 11716 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 15:13:17.626  INFO 11716 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 15:13:17.635  INFO 11716 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:13:18.034  WARN 11716 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 15:13:18.569  INFO 11716 --- [main] com.tareas.CrudTareasApplicationTests    : Started CrudTareasApplicationTests in 3.475 seconds (JVM running for 4.161)
-2022-07-24 15:13:18.652  INFO 11716 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:13:18.654  INFO 11716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:13:18.658  INFO 11716 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 15:32:33.923  INFO 7432 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 7432 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:32:33.925  INFO 7432 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:32:34.299  INFO 7432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 15:32:34.327  INFO 7432 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
-2022-07-24 15:32:34.647  INFO 7432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 15:32:34.653  INFO 7432 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 15:32:34.653  INFO 7432 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 15:32:34.726  INFO 7432 --- [main] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring embedded WebApplicationContext
-2022-07-24 15:32:34.727  INFO 7432 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 774 ms
-2022-07-24 15:32:34.826  INFO 7432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 15:32:35.068  INFO 7432 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 15:32:35.100  INFO 7432 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 15:32:35.133  INFO 7432 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 15:32:35.253  INFO 7432 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 15:32:35.341  INFO 7432 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 15:32:35.663  INFO 7432 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 15:32:35.670  INFO 7432 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:32:35.840  WARN 7432 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 15:32:36.056  INFO 7432 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crudtareas'
-2022-07-24 15:32:36.063  INFO 7432 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.396 seconds (JVM running for 2.868)
-2022-07-24 15:32:39.254  INFO 7432 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 15:32:39.254  INFO 7432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 15:32:39.255  INFO 7432 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-07-24 15:32:47.333  INFO 7432 --- [RMI TCP Connection(2)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 15:32:47.347  INFO 7432 --- [RMI TCP Connection(2)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:32:47.348  INFO 7432 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:32:47.353  INFO 7432 --- [RMI TCP Connection(2)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 15:37:24.742  INFO 2308 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 2308 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:37:24.744  INFO 2308 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:37:24.844  WARN 2308 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tareas.CrudTareasApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'tareaController' for bean class [com.tareas.controller.copy.TareaController] conflicts with existing, non-compatible bean definition of same name and class [com.tareas.controller.TareaController]
-2022-07-24 15:37:24.864 ERROR 2308 --- [main] o.s.boot.SpringApplication               : Application run failed
-
-org.springframework.beans.factory.BeanDefinitionStoreException: Failed to parse configuration class [com.tareas.CrudTareasApplication]; nested exception is org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'tareaController' for bean class [com.tareas.controller.copy.TareaController] conflicts with existing, non-compatible bean definition of same name and class [com.tareas.controller.TareaController]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:189) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:331) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:247) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:311) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:112) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:746) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:564) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:147) ~[spring-boot-2.7.2.jar:2.7.2]
-	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:734) ~[spring-boot-2.7.2.jar:2.7.2]
-	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:408) ~[spring-boot-2.7.2.jar:2.7.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:308) ~[spring-boot-2.7.2.jar:2.7.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1306) ~[spring-boot-2.7.2.jar:2.7.2]
-	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1295) ~[spring-boot-2.7.2.jar:2.7.2]
-	at com.tareas.CrudTareasApplication.main(CrudTareasApplication.java:10) ~[classes/:na]
-Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'tareaController' for bean class [com.tareas.controller.copy.TareaController] conflicts with existing, non-compatible bean definition of same name and class [com.tareas.controller.TareaController]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:349) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:287) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ComponentScanAnnotationParser.parse(ComponentScanAnnotationParser.java:128) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassParser.doProcessConfigurationClass(ConfigurationClassParser.java:296) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassParser.processConfigurationClass(ConfigurationClassParser.java:250) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:207) ~[spring-context-5.3.22.jar:5.3.22]
-	at org.springframework.context.annotation.ConfigurationClassParser.parse(ConfigurationClassParser.java:175) ~[spring-context-5.3.22.jar:5.3.22]
-	... 13 common frames omitted
-
-2022-07-24 15:37:52.348  INFO 11356 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 11356 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:37:52.350  INFO 11356 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:37:52.698  INFO 11356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 15:37:52.730  INFO 11356 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
-2022-07-24 15:37:53.044  INFO 11356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 15:37:53.051  INFO 11356 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 15:37:53.051  INFO 11356 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 15:37:53.121  INFO 11356 --- [main] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring embedded WebApplicationContext
-2022-07-24 15:37:53.122  INFO 11356 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 744 ms
-2022-07-24 15:37:53.222  INFO 11356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 15:37:53.433  INFO 11356 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 15:37:53.465  INFO 11356 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 15:37:53.497  INFO 11356 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 15:37:53.614  INFO 11356 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 15:37:53.701  INFO 11356 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 15:37:54.009  INFO 11356 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 15:37:54.018  INFO 11356 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:37:54.181  WARN 11356 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 15:37:54.395  INFO 11356 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crudtareas'
-2022-07-24 15:37:54.401  INFO 11356 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.306 seconds (JVM running for 2.78)
-2022-07-24 15:38:04.531  INFO 11356 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 15:38:04.532  INFO 11356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 15:38:04.532  INFO 11356 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2022-07-24 15:38:41.064  INFO 11356 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 15:38:41.077  INFO 11356 --- [RMI TCP Connection(4)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:38:41.078  INFO 11356 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:38:41.083  INFO 11356 --- [RMI TCP Connection(4)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-07-24 15:39:17.538  INFO 696 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 696 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
-2022-07-24 15:39:17.539  INFO 696 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
-2022-07-24 15:39:17.913  INFO 696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2022-07-24 15:39:17.943  INFO 696 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
-2022-07-24 15:39:18.254  INFO 696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
-2022-07-24 15:39:18.261  INFO 696 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2022-07-24 15:39:18.261  INFO 696 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
-2022-07-24 15:39:18.332  INFO 696 --- [main] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring embedded WebApplicationContext
-2022-07-24 15:39:18.332  INFO 696 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 765 ms
-2022-07-24 15:39:18.429  INFO 696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2022-07-24 15:39:18.637  INFO 696 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2022-07-24 15:39:18.670  INFO 696 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2022-07-24 15:39:18.702  INFO 696 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
-2022-07-24 15:39:18.816  INFO 696 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
-2022-07-24 15:39:18.900  INFO 696 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
-2022-07-24 15:39:19.209  INFO 696 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
-2022-07-24 15:39:19.215  INFO 696 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:39:19.382  WARN 696 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2022-07-24 15:39:19.592  INFO 696 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/crudtareas'
-2022-07-24 15:39:19.597  INFO 696 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.316 seconds (JVM running for 2.771)
-2022-07-24 15:39:22.663  INFO 696 --- [http-nio-8080-exec-1] o.a.c.c.C.[.[localhost].[/crudtareas]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2022-07-24 15:39:22.663  INFO 696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2022-07-24 15:39:22.664  INFO 696 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2022-07-24 15:47:31.297  INFO 696 --- [RMI TCP Connection(10)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
-2022-07-24 15:47:31.312  INFO 696 --- [RMI TCP Connection(10)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2022-07-24 15:47:31.314  INFO 696 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-07-24 15:47:31.319  INFO 696 --- [RMI TCP Connection(10)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-07-25 17:30:08.713  INFO 2248 --- [main] com.tareas.CrudTareasApplication         : Starting CrudTareasApplication using Java 17.0.3 on DESKTOP-G84UJFD with PID 2248 (C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas\target\classes started by DeAvilaWeb in C:\Users\User\Documents\workspace-spring-tool-suite-4-4.15.1.RELEASE\Crud-Tareas)
+2022-07-25 17:30:08.718  INFO 2248 --- [main] com.tareas.CrudTareasApplication         : No active profile set, falling back to 1 default profile: "default"
+2022-07-25 17:30:09.209  INFO 2248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-07-25 17:30:09.244  INFO 2248 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 28 ms. Found 1 JPA repository interfaces.
+2022-07-25 17:30:09.640  INFO 2248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2022-07-25 17:30:09.648  INFO 2248 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-07-25 17:30:09.649  INFO 2248 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.65]
+2022-07-25 17:30:09.737  INFO 2248 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2022-07-25 17:30:09.738  INFO 2248 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 984 ms
+2022-07-25 17:30:09.856  INFO 2248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-07-25 17:30:10.118  INFO 2248 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-07-25 17:30:10.166  INFO 2248 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-07-25 17:30:10.219  INFO 2248 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.10.Final
+2022-07-25 17:30:10.394  INFO 2248 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-07-25 17:30:10.504  INFO 2248 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+2022-07-25 17:30:10.885  INFO 2248 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-07-25 17:30:10.891  INFO 2248 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 17:30:11.073  WARN 2248 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-07-25 17:30:11.306  INFO 2248 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2022-07-25 17:30:11.312  INFO 2248 --- [main] com.tareas.CrudTareasApplication         : Started CrudTareasApplication in 2.936 seconds (JVM running for 3.475)
+2022-07-25 17:30:21.009  INFO 2248 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-07-25 17:30:21.009  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-07-25 17:30:21.010  INFO 2248 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-07-25 18:39:11.825  WARN 2248 --- [HikariPool-1 housekeeper] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=15m901ms889µs900ns).
+2022-07-25 21:35:43.496  INFO 2248 --- [RMI TCP Connection(243)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2022-07-25 21:35:43.540  INFO 2248 --- [RMI TCP Connection(243)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2022-07-25 21:35:43.543  INFO 2248 --- [RMI TCP Connection(243)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-07-25 21:35:43.548  INFO 2248 --- [RMI TCP Connection(243)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

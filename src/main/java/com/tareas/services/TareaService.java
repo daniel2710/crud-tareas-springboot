@@ -1,6 +1,8 @@
-package com.tareas;
+package com.tareas.services;
 
 import java.util.List;
+
+import com.tareas.model.Tarea;
 
 //Aqui iran las funciones CRUD
 public interface TareaService {

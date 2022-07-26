@@ -1,4 +1,4 @@
-package com.tareas;
+package com.tareas.controller;
 
 import java.util.List;
 
@@ -12,6 +12,9 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+
+import com.tareas.model.Tarea;
+import com.tareas.services.TareaService;
 
 @RestController
 @CrossOrigin(origins="*")

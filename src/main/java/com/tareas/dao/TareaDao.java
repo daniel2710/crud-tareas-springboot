@@ -1,6 +1,8 @@
-package com.tareas;
+package com.tareas.dao;
 
 import org.springframework.data.repository.CrudRepository;
+
+import com.tareas.model.Tarea;
 
 
 // Esta interfaz va a utilizar las funciones crud de springBoot
